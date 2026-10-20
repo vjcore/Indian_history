@@ -1,0 +1,12 @@
+name = "bharat-itihasa-publisher"
+main = "src/index.js"
+compatibility_date = "2026-10-20"
+
+[vars]
+GH_OWNER = "vjcore"
+GH_REPO = "Indian_history"
+GH_BRANCH = "main"
+SITE_ORIGIN = "https://vjcore.github.io"
+
+# Configure secrets via Cloudflare Dashboard or `wrangler secret put`:
+# GH_TOKEN, ADMIN_PASSWORD, SESSION_SECRET
